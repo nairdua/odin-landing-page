@@ -177,3 +177,11 @@ article > div,.article-image {
     font-weight: light;
     margin-top: 0;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
