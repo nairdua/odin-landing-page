@@ -5,9 +5,36 @@ html {
 body {
     margin: 0;
     padding: 0;
-}
-
-.container {
     display: flex;
     flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 0 1em;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
